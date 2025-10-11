@@ -1,0 +1,15 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, keyEncipherment
+extendedKeyUsage=serverAuth, clientAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = *.127-0-0-1.nip.io
+DNS.2 = 127.0.0.1
+DNS.3 = localhost
+DNS.4 = 0.0.0.0
+DNS.5 = *.localho.st
+# You can add additional dns records based on you domain
+#DNS.6 = *.172-29-0-5.nip.io
+#DNS.7 = *.example.com
